@@ -1,0 +1,10 @@
+venv/
+env/
+../TTC_Bench/.venv/
+
+# PyCharm config files
+.idea/
+
+# Python compiled files
+__pycache__/
+*.pyc
