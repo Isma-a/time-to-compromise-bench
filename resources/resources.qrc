@@ -1,0 +1,7 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/icons">
+        <file alias="eye_view.png">icons/eye_view.png</file>
+        <file alias="eye_hide.png">icons/eye_hide.png</file>
+    </qresource>
+</RCC>
