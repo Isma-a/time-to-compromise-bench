@@ -22,7 +22,7 @@ from PySide6.QtWidgets import (QApplication, QFrame, QGridLayout, QHBoxLayout,
     QSplitter, QStackedWidget, QStatusBar, QToolBar,
     QVBoxLayout, QWidget)
 
-from password_line_edit import PasswordLineEdit
+from ui.custom_widgets.password_line_edit import PasswordLineEdit
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -184,7 +184,7 @@ class Ui_MainWindow(object):
         self.scrollAreaHashGrid.setWidgetResizable(True)
         self.scrollAreaWidgetContentsHashGrid = QWidget()
         self.scrollAreaWidgetContentsHashGrid.setObjectName(u"scrollAreaWidgetContentsHashGrid")
-        self.scrollAreaWidgetContentsHashGrid.setGeometry(QRect(0, 0, 165, 156))
+        self.scrollAreaWidgetContentsHashGrid.setGeometry(QRect(0, 0, 98, 28))
         self.scrollAreaHashGrid.setWidget(self.scrollAreaWidgetContentsHashGrid)
 
         self.verticalLayoutHashSearch.addWidget(self.scrollAreaHashGrid)
@@ -195,7 +195,7 @@ class Ui_MainWindow(object):
         self.scrollAreaHashInfo.setWidgetResizable(True)
         self.scrollAreaWidgetContentsHashInfo = QWidget()
         self.scrollAreaWidgetContentsHashInfo.setObjectName(u"scrollAreaWidgetContentsHashInfo")
-        self.scrollAreaWidgetContentsHashInfo.setGeometry(QRect(0, 0, 68, 189))
+        self.scrollAreaWidgetContentsHashInfo.setGeometry(QRect(0, 0, 98, 28))
         self.scrollAreaHashInfo.setWidget(self.scrollAreaWidgetContentsHashInfo)
         self.splitterHash.addWidget(self.scrollAreaHashInfo)
 
@@ -240,7 +240,7 @@ class Ui_MainWindow(object):
         self.scrollAreaGPUGrid.setWidgetResizable(True)
         self.scrollAreaWidgetContentsGPUGrid = QWidget()
         self.scrollAreaWidgetContentsGPUGrid.setObjectName(u"scrollAreaWidgetContentsGPUGrid")
-        self.scrollAreaWidgetContentsGPUGrid.setGeometry(QRect(0, 0, 274, 156))
+        self.scrollAreaWidgetContentsGPUGrid.setGeometry(QRect(0, 0, 298, 156))
         self.scrollAreaGPUGrid.setWidget(self.scrollAreaWidgetContentsGPUGrid)
 
         self.verticalLayoutGPUSearch.addWidget(self.scrollAreaGPUGrid)

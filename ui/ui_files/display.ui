@@ -210,8 +210,8 @@
                             <rect>
                              <x>0</x>
                              <y>0</y>
-                             <width>165</width>
-                             <height>156</height>
+                             <width>98</width>
+                             <height>28</height>
                             </rect>
                            </property>
                           </widget>
@@ -228,8 +228,8 @@
                          <rect>
                           <x>0</x>
                           <y>0</y>
-                          <width>68</width>
-                          <height>189</height>
+                          <width>98</width>
+                          <height>28</height>
                          </rect>
                         </property>
                        </widget>
@@ -282,7 +282,7 @@
                             <rect>
                              <x>0</x>
                              <y>0</y>
-                             <width>274</width>
+                             <width>298</width>
                              <height>156</height>
                             </rect>
                            </property>
@@ -398,7 +398,7 @@
   <customwidget>
    <class>PasswordLineEdit</class>
    <extends>QLineEdit</extends>
-   <header>password_line_edit</header>
+   <header>ui/custom_widgets/password_line_edit</header>
   </customwidget>
  </customwidgets>
  <resources/>
